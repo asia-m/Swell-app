@@ -1,0 +1,35 @@
+.product-list {
+    height: calc(100vh - 110px);
+    max-height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+.new-category-input {
+    width: calc(100% - 60px);
+}
+
+.add-product-category-button {
+    position: absolute;
+    top: 8%;
+    right: 1%;
+}
+
+.delete-product-category-button {
+    position: absolute;
+    top: 8%;
+    right: 1%;
+    display: none;
+}
+
+.list-group-item:hover .delete-product-category-button {
+    display: inline-block;
+}
+
+.list-group-item.active:hover .delete-product-category-button {
+    display: none;
+}
+
+.new-product-form {
+    width: 100%;
+}

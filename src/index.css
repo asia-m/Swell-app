@@ -1,0 +1,15 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~react-bootstrap-table/css/react-bootstrap-table.css";
+body {
+    padding-top: 5rem;
+}
+
+.button-mode {
+    cursor: pointer;
+}
+
+.inventory-delete-button{
+    position: absolute;
+    top: 6px;
+    right: 16px;
+}
