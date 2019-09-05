@@ -12,7 +12,7 @@ const App: React.FC = () => {
     return (
         <BrowserRouter>
             <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-                <Link className="navbar-brand" to="/">Point of sales</Link>
+                <Link className="navbar-brand" to="/">SWELL</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarsExampleDefault"
                         aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
